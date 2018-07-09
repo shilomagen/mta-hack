@@ -1,0 +1,26 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.app-logo {
+    width: 600px;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) {
+    .app-logo {
+        width: 270px;
+    }
+}
+
+.social-icon {
+    margin-right: 5px;
+}
+
+.social-login-bar {
+    text-align: center;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
